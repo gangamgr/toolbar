@@ -1,0 +1,73 @@
+.main{
+    margin: 40px;
+    display: flex;
+}
+
+
+.homemain{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    font-weight: 300;
+
+}
+.homeone{
+    font-size: 35px;
+    font-weight: 1000;
+    margin: 10px;
+}
+.hometwo{
+    display: flex;
+    align-items: right;
+    font-size: 18px;
+    gap: 40px;
+   margin: 20px;
+}
+.homethree{
+    height: 150px;
+    width: 200px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    
+}
+.pic1{
+    height: 40px; 
+    width: 60px; 
+    background-image:url(../resources/twtr.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+.pic2{
+    background-image: url(../resources/fb.jpg);
+    height: 30px;
+    width: 60px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pic3{
+    background-image: url(../resources/pinterest.png);
+    height: 50px;
+    width: 70px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pic4{
+    background-image: url(../resources/sicon.png);
+    height: 30px;
+    width: 60px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}

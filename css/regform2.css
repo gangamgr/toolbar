@@ -1,0 +1,15 @@
+.two{
+    height: fit-content;
+    width:fit-content;
+    background-color: aquamarine;
+    margin-top: 20px black;
+    margin-left: 20px red;
+    margin-bottom: 20px black;
+    margin-right: 20px red;
+    text-align: center;
+    border-radius: 4px solid brown;
+    justify-content: center;
+}
+.three{
+    height: auto;
+}

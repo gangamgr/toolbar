@@ -1,0 +1,7 @@
+nav{
+    height: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+}

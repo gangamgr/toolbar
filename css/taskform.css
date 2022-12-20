@@ -1,0 +1,32 @@
+.bg{
+    position: fixed;
+    height: 600px;
+    width: 700px;
+    margin: 100px auto;
+    padding: 50px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+   background-image: url(../resources/wallp.jpg);
+   position: absolute;
+   height: 600px;
+   width: 500px;
+   padding: 80px;
+   margin:100px
+}
+
+.form{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.image3{
+}

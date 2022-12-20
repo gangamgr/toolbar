@@ -1,0 +1,35 @@
+.one{
+    background-color: red;
+    border: 10px solid red;
+    border-radius: 10px;
+    border-top: 10px dotted blue; 
+    height: 2oopx;
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+ }   
+.two{
+    height: 1oopx;
+    width: 400px;
+    background-color: brown;
+    display: justify contents flex;
+    justify-content: space-around ;
+}
+.three{
+    font-size: 70;
+    height: 80px;
+    width: 80px;
+    background-color:aquamarine;
+    display: justify contents;
+    justify-content: center;
+    align-items: center;
+
+}
+.four{
+    font-size: larger;
+    height:70px ;
+    width: 70px;
+    background-color: aqua;
+}

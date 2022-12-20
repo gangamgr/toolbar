@@ -1,0 +1,43 @@
+.two{
+    margin: 10px;
+    padding: 10px;
+    border: 30px;
+    display: flex;
+}.three{
+    border: 15px solid burlywood ;
+    background-color: burlywood;
+    font-size: 30px;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+    font-size: 40px;
+    background-color: aqua;
+    font-style: oblique;
+    text-shadow: 10px;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+.five{
+    font-size: 30px;
+    background-color: palevioletred;
+    font-style: italic;
+    text-align: left;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+}
+.img{
+    height: 200px ;
+    width: 200px;
+    border-radius: 100%;
+    border: 15px;
+}

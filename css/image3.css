@@ -1,0 +1,16 @@
+.profile{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+}
+  .one{
+    background-image: url("../resources/profile.jpg");
+    text-transform: uppercase;
+    height: 300px;
+    width: 300px;
+    background-size: 100% 100%;
+    font-style: italic;
+    color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: center;
+}
