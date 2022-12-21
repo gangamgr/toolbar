@@ -1,48 +1,65 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+
+}
 .main{
-    margin: 40px;
-    display: flex;
+    /* margin: 40px; */
+    /* display: flex; */
+
 }
 
 
 .homemain{
     display: flex;
     justify-content: left;
-    gap: 40px;
+    gap: 20px;
     font-weight: 300;
+    /* box-shadow: 1px 1px 10px 1px gray; */
 
 }
 .homeone{
+    background-color: white;
+   height: 100px;
+   width: 500px;
     font-size: 35px;
     font-weight: 1000;
-    margin: 10px;
+    justify-content: center;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .hometwo{
     display: flex;
     align-items: right;
     font-size: 18px;
-    gap: 40px;
-   margin: 20px;
+    gap: 40px; 
+   margin: 20px;  
+   padding-top: 14px;
 }
 .homethree{
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 500px;
     gap: 15px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     margin-left: 500px;
+    background-color:white;
     
 }
 .pic1{
-    height: 40px; 
-    width: 60px; 
-    background-image:url(../resources/twtr.jpg) ;
+    height: 35px; 
+    width: 50px; 
+    background-image:url(../pictures/twitter.png) ;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     
 }
 .pic2{
-    background-image: url(../resources/fb.jpg);
+    background-image: url(../pictures/fb.jpg);
     height: 30px;
     width: 60px;
     display: flex;
@@ -50,7 +67,7 @@
     background-repeat: no-repeat;
 }
 .pic3{
-    background-image: url(../resources/pinterest.png);
+    background-image: url(../pictures/pinterest.png);
     height: 50px;
     width: 70px;
     display: flex;
@@ -58,9 +75,17 @@
     background-repeat: no-repeat;
 }
 .pic4{
-    background-image: url(../resources/sicon.png);
+    background-image: url(../pictures/sicon.png);
     height: 30px;
     width: 60px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pic5{
+    background-image: url(../pictures/shooping\ cart.webp);
+    height: 70px;
+    width: 70px;
     display: flex;
     background-size: contain;
     background-repeat: no-repeat;
@@ -69,5 +94,39 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: purple;
+}
+.mainpic{
+    background-image: url(../pictures/image1.jpg);
+    height: 900px;
+    width: 70%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: column;
+    margin: 0px auto;
+    
+}
+.text{
+    color: white;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+    font-weight: 800;
+    }
+.logo{
+    height: 80px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.subpic{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
 }
